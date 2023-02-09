@@ -1,0 +1,74 @@
+.container{
+  
+  
+  display:block;
+
+}
+.div-1-banner{
+  width: 100%;
+}
+
+/* .div-head{
+  width: 200px;
+  height: 150px;
+
+  background-repeat: no-repeat
+} */
+
+.div-2{
+  background-color: rgb(255, 255, 255);
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; */
+}
+.div-2-overview{
+  
+  margin-left: 733px;
+  margin-right: auto;
+  width: 40%;
+
+}
+.footer{
+  background-color: black;
+}
+
+.footer-text-1{
+  color: red;
+  text-align: center;
+  padding: 22px;
+}
+.footer-text-2{
+  color: whitesmoke;
+  margin: 4px;
+}
+.footer-text-3{
+  color: whitesmoke;
+}
+.footer-text-4{
+  color: whitesmoke;
+}
+.footer-text-5{
+  color: whitesmoke;
+}
+.footer-text-6{
+  color: whitesmoke;
+  text-align: right;
+}
+.footer-text-7{
+  color: whitesmoke;
+}
+
+.head-overview{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
+  top: 100px;
+}
+.para-overview{
+
+}
+.middle-image{
+  
+}
