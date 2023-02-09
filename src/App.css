@@ -1,8 +1,142 @@
+* {
+  font-family: sans-serif;
+}
+
 .container {
   display: block;
 }
-.div-1-banner {
-  width: 100%;
+
+.div-1 {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.div-1-content {
+  display: flex;
+}
+.div-1-content .left-div {
+  width: 50%;
+}
+.div-1-content .right-div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-1-heading {
+  color: #f17a57;
+  font-weight: 700;
+  margin-top: 120px;
+  font-size: 18px;
+}
+
+.div-1-sub-heading {
+  color: #2c2b2b;
+  word-wrap: break-word;
+}
+
+.div-1-desc {
+  font-size: 18px;
+  word-wrap: break-word;
+  width: 65%;
+  color: #2c2b2b;
+  line-height: 28px;
+}
+
+.div-1-content .tiles-div {
+  display: flex;
+}
+
+.tiles-div .left-tile {
+  margin-right: 40px;
+}
+
+.tiles-div .left-tile,
+.right-tile {
+  display: flex;
+  width: 45%;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px,
+    rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+}
+
+.tiles-div .tiles-svg {
+  margin: 15px;
+}
+
+.tiles-div .tile-content {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tiles-div .tile-content .p1,
+.p2 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #2c2b2b;
+  margin: 0;
+  padding: 0;
+}
+
+.tiles-div .tile-content .p1 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.right-div .appointment-form .heading-1 {
+  color: black;
+  margin-bottom: 25px;
+}
+
+.right-div .appointment-form .heading-1 span {
+  text-decoration: underline;
+  color: #f17a57;
+}
+
+.right-div .appointment-form {
+  background-color: #fff;
+  width: 45%;
+  border-radius: 10px;
+  padding: 35px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px,
+    rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+}
+
+.appointment-form input {
+  border: 0;
+  border-bottom: 1px solid gray;
+  width: 95%;
+  margin-bottom: 26px;
+  padding: 5px 2px 5px 2px;
+  height: 20px;
+  color: #2c2b2b;
+  font-size: 15px;
+}
+
+.appointment-form button {
+  background-color: #f93759;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px -3px,
+    rgb(0 0 0 / 14%) 0px 8px 10px 1px, rgb(0 0 0 / 12%) 0px 3px 14px 2px;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 4px;
+  width: 97%;
+  border: none;
+}
+
+.appointment-form button span {
+  text-decoration: underline;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-5 {
+  padding-left: 50px;
 }
 
 /* .div-head{
@@ -14,18 +148,25 @@
 
 .div-2 {
   background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
   /* display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%; */
 }
 .div-2-overview {
-  margin-left: 733px;
-  margin-right: auto;
   width: 40%;
+  align-self: end;
 }
+
+.kt-logo {
+  height: 80px;
+  width: auto;
+}
+
 .footer {
-  background-color: black;
+  background-color: #080b20;
 }
 
 .footer-text-1 {
@@ -33,33 +174,24 @@
   text-align: center;
   padding: 22px;
 }
-.footer-text-2 {
-  color: whitesmoke;
-  margin: 4px;
-}
-.footer-text-3 {
-  color: whitesmoke;
-}
-.footer-text-4 {
-  color: whitesmoke;
-  pointer-events: none;
-}
-.footer-text-5 {
-  color: whitesmoke;
-}
-.footer-text-6 {
-  color: whitesmoke;
-  text-align: right;
-}
+.footer-text-2,
+.footer-text-3,
+.footer-text-4,
+.footer-text-5,
+.footer-text-6,
 .footer-text-7 {
   color: whitesmoke;
 }
 
+.footer-text-2 {
+  margin: 4px;
+}
+
+.footer-text-6 {
+  text-align: right;
+}
+
 .head-overview {
-  margin-left: auto;
-  margin-right: auto;
-  width: 93%;
-  top: 100px;
 }
 .para-overview {
 }
